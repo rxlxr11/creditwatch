@@ -3,8 +3,9 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="ujs.creditwatch.mapper.StudentMapper">
-    <resultMap id="StudentCreditView" type="ujs.creditwatch.pojo.StudentCreditView">
 
-    </resultMap>
+    <select id="queryStudentTask" resultType="ujs.creditwatch.pojo.StudentTaskView">
+
+    </select>
 
 </mapper>
